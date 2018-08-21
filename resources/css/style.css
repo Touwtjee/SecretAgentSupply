@@ -82,6 +82,10 @@ nav li {
   display: inline;
 }
 
+.hamburger{
+  display:none;
+}
+
 /* main content */
 /* products */
 .products{
@@ -137,5 +141,71 @@ nav li {
 footer{
   margin: 4rem 0 0 0;
   background-color: black;
-  padding: 5rem;
+  padding: 5rem 0;
+}
+
+@media only screen and (max-width: 1024px){
+  .item{
+    width: 47%
+  }
+  .number-3{
+    display: none;
+  }
+
+  .menu{
+    display: none;
+  }
+
+  .hamburger{
+    display: block;
+    text-align: center;
+  }
+
+  footer{
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 470px){
+  .main-banner{
+    height: 15rem;
+  }
+
+  .new-arrival{
+    top: 10rem;
+    padding: 1rem 2rem;
+    width: 100%;
+  }
+
+  .new-arrival h2{
+    font-size: .77rem;
+  }
+
+  .new-arrival h3{
+    font-size: 1rem;
+  }
+
+  .item{
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .number-2{
+    display: none;
+  }
+
+  .store-info{
+    display: block;
+  }
+
+  .info{
+    margin: 0 auto;
+    width: 90%;
+    padding: .5rem;
+  }
+
+  footer{
+    text-align: center;
+  }
+
 }
