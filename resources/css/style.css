@@ -166,7 +166,7 @@ footer{
   }
 }
 
-@media only screen and (max-width: 470px){
+@media only screen and (max-width: 504px){
   .main-banner{
     height: 15rem;
   }
