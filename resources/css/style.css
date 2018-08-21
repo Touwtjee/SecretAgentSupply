@@ -7,13 +7,17 @@ body{
   line-height: 1.4em;
 }
 
-h1, h2, h3, h4{
+h1, h2, h3{
   text-transform: uppercase;
 }
 
 .container{
   max-width: 960px;
   margin: 0 auto;
+}
+
+span {
+  color: black;
 }
 
 /* Header */
@@ -76,4 +80,54 @@ nav ul{
 
 nav li {
   display: inline;
+}
+
+/* main content */
+/* products */
+.products{
+  display: flex;
+  justify-content: space-between;
+  margin: 3em 0 0 0;
+}
+
+.item{
+  width:30%;
+}
+
+.product-image{
+  border: 4px solid black;
+  padding: 2em 0;
+  height: 9em;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.product-image img {
+  max-width: 8em;
+
+}
+
+.item h4{
+  background-color: black;
+  padding: .5em;
+  text-align: center;
+}
+
+/* store information */
+
+.store-info{
+  margin: 3em 0 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info{
+  width: 35%;
+}
+
+.info h4 {
+  background-color: black;
+  padding: 1em;
 }
