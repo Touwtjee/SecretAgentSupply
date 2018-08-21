@@ -131,3 +131,11 @@ nav li {
   background-color: black;
   padding: 1em;
 }
+
+/* Footer */
+
+footer{
+  margin: 3em 0 0 0;
+  background-color: black;
+  padding: 5em;
+}
